@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AtlasDemand: qualified sales conversations for B2B SaaS</title>
+<meta name="description" content="A new outbound service for B2B SaaS founders: replace low-quality leads with qualified sales conversations.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AtlasDemand">
+<meta property="og:description" content="Replace low-quality leads with qualified sales conversations.">
+<link rel="icon" href="data:,">
+<style>
+  :root {
+    color-scheme: light dark;
+    --paper: #EEF3F2;
+    --ink: #10282D;
+    --muted: #46595E;
+    --rule: #C3D0CE;
+    --accent: #0B6B73;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #0D191C;
+      --ink: #E3EDEB;
+      --muted: #9BB0B1;
+      --rule: #263A3E;
+      --accent: #6FC6CD;
+    }
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Charter, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Noto Serif", serif;
+    font-size: clamp(1.125rem, 1.04rem + 0.4vw, 1.25rem);
+    line-height: 1.6;
+  }
+
+  .page {
+    max-width: 41rem;
+    margin: 0 auto;
+    padding: clamp(1.5rem, 6vh, 3rem) clamp(1rem, 5vw, 2rem) 4rem;
+  }
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.25rem 1.5rem;
+    margin: 0 0 clamp(3rem, 12vh, 6.5rem);
+  }
+
+  .wordmark {
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .whylink {
+    margin: 0;
+    font-size: 0.9375rem;
+  }
+
+  h1 {
+    margin: 0 0 1.5rem;
+    font-size: clamp(2.125rem, 1.3rem + 4.2vw, 3.5rem);
+    font-weight: 600;
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  h2 {
+    margin: 0 0 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.3;
+    scroll-margin-top: 1.5rem;
+  }
+
+  p { margin: 0 0 1rem; max-width: 34rem; }
+
+  .lede { margin-bottom: 3.5rem; font-size: 1.08em; }
+
+  section { margin: 0 0 3rem; }
+
+  dl { margin: 0 0 1.25rem; border-bottom: 1px solid var(--rule); }
+
+  .need {
+    display: grid;
+    gap: 0.1rem 2rem;
+    padding: 1rem 0;
+    border-top: 1px solid var(--rule);
+  }
+  .need dt { font-weight: 600; }
+  .need dd { margin: 0; max-width: 32rem; }
+
+  @media (min-width: 40rem) {
+    .need { grid-template-columns: 7rem 1fr; }
+  }
+
+  .why {
+    padding-left: 1.25rem;
+    border-left: 3px solid var(--accent);
+  }
+  .why p:last-child { margin-bottom: 0; }
+
+  a {
+    color: var(--accent);
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.2em;
+  }
+  a:hover { text-decoration-thickness: 0.14em; }
+  a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  .sign { margin-top: 1.5rem; }
+  .sign strong { font-weight: 600; }
+
+  footer {
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.9375rem;
+  }
+  footer p { margin: 0; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <p class="wordmark">AtlasDemand</p>
+    <p class="whylink"><a href="#why">Got an email from me?</a></p>
+  </header>
+
+  <main>
+    <h1>Replace low-quality leads with qualified sales conversations.</h1>
+    <p class="lede">AtlasDemand is a new outbound service for B2B SaaS founders. Every message starts with research on one company and goes to one named person there.</p>
+
+    <section aria-labelledby="needs">
+      <h2 id="needs">What every message needs</h2>
+      <dl>
+        <div class="need">
+          <dt>Company</dt>
+          <dd>It looks like your best customers: the same kind of business, the same size, the same problem.</dd>
+        </div>
+        <div class="need">
+          <dt>Person</dt>
+          <dd>One person, by name, who owns the decision. No shared inboxes.</dd>
+        </div>
+        <div class="need">
+          <dt>Reason</dt>
+          <dd>Something public and recent about the company, such as a hire, a launch or a funding round.</dd>
+        </div>
+      </dl>
+      <p>Each batch starts small. The replies decide who gets the next one.</p>
+    </section>
+
+    <section aria-labelledby="for">
+      <h2 id="for">Who it is for</h2>
+      <p>B2B SaaS companies in the US with roughly 10 to 200 people.</p>
+    </section>
+
+    <section class="why" aria-labelledby="why">
+      <h2 id="why">Why did I get an email from you?</h2>
+      <p>I choose companies from public information, such as a funding round, a leadership hire or a sales job posting, and I write each email about one fact from it. I find work email addresses on public pages and through business-contact data providers. If you would like to know where I found yours, write to me and I will tell you.</p>
+      <p>I send one short email. If you do not reply, I may follow up at most twice, then I stop.</p>
+      <p>To stop, reply &ldquo;unsubscribe&rdquo; to any of my emails. I will not write to you again, and I keep your address on a do-not-contact list so it is never used again.</p>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact</h2>
+      <p>Questions are welcome. Write to me directly.</p>
+      <p class="sign"><strong>Moss Victor</strong><br>CEO, AtlasDemand<br><a href="mailto:victor@useatlasdemand.com">victor@useatlasdemand.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Got an email from me and want it to stop? Reply &ldquo;unsubscribe&rdquo; to that email, or write to <a href="mailto:victor@useatlasdemand.com?subject=unsubscribe">victor@useatlasdemand.com</a>, and I will stop.</p>
+  </footer>
+</div>
+</body>
+</html>
